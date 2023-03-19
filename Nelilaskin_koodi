@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         outputNum = findViewById(R.id.output);
     }
 
-    public void addNumbers(View view) {
+    public void addNumbers(View view) { //Lasketaan summa
         int num1 = Integer.parseInt(number1.getText().toString());
         int num2 = Integer.parseInt(number2.getText().toString());
 
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         outputNum.setText(String.valueOf(sum));
     }
 
-    public void subtractNumbers(View view) {
+    public void subtractNumbers(View view) { //Lasketaan erotus
         int num1 = Integer.parseInt(number1.getText().toString());
         int num2 = Integer.parseInt(number2.getText().toString());
 
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         outputNum.setText(String.valueOf(subtraction));
     }
 
-    public void multiplyNumbers(View view) {
+    public void multiplyNumbers(View view) { //Lasketaan tulo
         int num1 = Integer.parseInt(number1.getText().toString());
         int num2 = Integer.parseInt(number2.getText().toString());
 
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         outputNum.setText(String.valueOf(multiplication));
     }
 
-    public void divideNumbers(View view) {
+    public void divideNumbers(View view) { //Lasketaan osamäärä
         int num1 = Integer.parseInt(number1.getText().toString());
         int num2 = Integer.parseInt(number2.getText().toString());
 
